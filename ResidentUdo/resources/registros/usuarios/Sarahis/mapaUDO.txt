@@ -1,0 +1,87 @@
+mapaUDO
+-sig-
+POSICION
+-
+Point: 1120, 1024
+-sig-
+CONSUMIBLES
+-
+Consumible: 0, Objeto1, Descripcion1, 28, 1152, 800, 5, 5
+-
+Consumible: 1, Objeto2, Descripcion2, 30, 1088, 1024, 4, 6
+-
+Consumible: 0, Objeto1, Descripcion1, 28, 1264, 1040, 5, 2
+-
+Consumible: 2, Objeto3, Descripcion3, 16, 1168, 1104, 2, 1
+-
+Consumible: 3, Objeto4, Descripcion4, 5, 1056, 1184, 10, 3
+-
+Consumible: 4, Objeto5, Descripcion5, 25, 1120, 960, 2, 2
+-
+Consumible: 5, Objeto6, Descripcion6, 21, 1456, 1040, 6, 1
+-
+Consumible: 6, Objeto7, Descripcion7, 24, 672, 1104, 3, 2
+-sig-
+ARMAS
+-
+Escopeta: 1, Escopeta, Descripcion, 2, 1120, 1120, 3, 4, 5
+-
+Pistola: 2, Pistola2, Descripcion, 1, 960, 1184, 4, 3, 5
+-sig-
+ENEMIGOS
+-
+Enemigo: 1, Enemigo1, Zombie, Zombie_32x32, 864, 992, 30, 1, 10
+-
+Enemigo: 2, Enemigo2, Zombie, Zombie_32x32, 1232, 1200, 30, 1, 10
+-
+Enemigo: 3, Enemigo2, Zombie, Zombie_32x32, 1140, 819, 30, 1, 10
+-
+Enemigo: 4, Enemigo2, Zombie, Zombie_32x32, 864, 1200, 30, 1, 10
+-
+Enemigo: 5, Enemigo2, Zombie, Zombie_32x32, 1488, 1136, 30, 1, 10
+-sig-
+VENDEDORES
+-
+Vendedor: 0, Vendedor, Baratero, Yellow_32x32, 1424, 1008, 20
+ > 
+Consumible: 11, C1, D1, 0, 0, 0, 5, 3 => Integer: 2
+ > 
+Consumible: 12, C2, D2, 10, 0, 0, 8, 3 => Integer: 4
+ > 
+Escopeta: 10, Escopeta, Descripcion, 2, 0, 0, 2, 4, 5 => Integer: 10
+ > 
+Pistola: 11, Pistola2, Descripcion, 1, 0, 0, 5, 3, 5 => Integer: 5
+ > 
+Escopeta: 12, Escopeta, Descripcion, 2, 0, 0, 6, 4, 5 => Integer: 15
+ > 
+Pistola: 13, Pistola2, Descripcion, 1, 0, 0, 1, 3, 5 => Integer: 2
+ > 
+Escopeta: 14, Escopeta, Descripcion, 2, 0, 0, 10, 4, 5 => Integer: 22
+ > 
+Pistola: 15, Pistola2, Descripcion, 1, 0, 0, 10, 3, 5 => Integer: 18
+ > 
+Municion: 10, Municion, Pistola, 4, 0, 0, 5, Pistola => Integer: 2
+ > 
+Municion: 11, Municion, Pistola, 4, 0, 0, 5, Pistola => Integer: 2
+ > 
+Municion: 12, Municion, Pistola, 4, 0, 0, 5, Pistola => Integer: 2
+ > 
+Municion: 13, Municion, Pistola, 4, 0, 0, 5, Pistola => Integer: 2
+ > 
+Municion: 14, Municion, Pistola, 4, 0, 0, 5, Pistola => Integer: 2
+ > 
+Municion: 15, Municion, Escopeta, 0, 0, 0, 5, Escopeta => Integer: 3
+ > 
+Municion: 16, Municion, Escopeta, 0, 0, 0, 5, Escopeta => Integer: 3
+ > 
+Municion: 17, Municion, Escopeta, 0, 0, 0, 5, Escopeta => Integer: 3
+ > 
+Municion: 18, Municion, Escopeta, 0, 0, 0, 5, Escopeta => Integer: 3
+ > 
+Municion: 19, Municion, Escopeta, 0, 0, 0, 5, Escopeta => Integer: 3
+-sig-
+MUNICIONES
+-
+Municion: 1, Municion, Pistola, 5, 1120, 1024, 5, Pistola
+-
+Municion: 2, Municion, Escopeta, 1, 1152, 1024, 5, Escopeta

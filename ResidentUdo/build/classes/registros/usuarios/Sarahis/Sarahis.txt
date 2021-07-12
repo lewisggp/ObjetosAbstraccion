@@ -1,0 +1,137 @@
+Lewis
+-sig-
+PUNTOS
+-
+Integer: 553
+-sig-
+DISPONIBLES
+-
+String: Aki_32x32
+-
+String: Archer_32x32
+-
+String: Blocky_32x32
+-
+String: Blue_32x32
+-
+String: Chef_32x32
+-
+String: Esquire_32x32
+-
+String: ForestBoy_32x32
+-
+String: Gentleman_32x32
+-
+String: Girl_32x32
+-
+String: GreenCap_32x32
+-
+String: Hero_32x32
+-
+String: KnifeGuy1_32x32
+-
+String: KnifeGuy2_32x32
+-
+String: Necroman_32x32
+-
+String: Ninja_32x32
+-
+String: Penguin_32x32
+-
+String: Samurai_32x32
+-
+String: Skeliton_32x32
+-
+String: Soldier_32x32
+-
+String: Valkyrie_32x32
+-
+String: Yellow_32x32
+-
+String: Zombie_32x32
+-sig-
+SELECCIONADO
+-
+String: Aki_32x32
+-sig-
+MAPA
+-
+String: UDO
+-sig-
+POSICION
+-
+Point: 1349, 1059
+-sig-
+VIDA
+-
+Integer: 94
+-sig-
+CONSUMIBLES
+-
+Consumible: 5, Objeto6, Descripcion6, 21, 1458, 1048, 6, 2
+-
+Consumible: 9, Objeto10, Descripcion10, 29, 80, 16, 2, 5
+-
+Consumible: 8, Objeto9, Descripcion9, 8, 96, 0, 4, 23
+-
+Consumible: 7, Objeto8, Descripcion8, 31, 16, 96, 5, 30
+-
+Consumible: 6, Objeto7, Descripcion7, 24, 674, 1112, 3, 4
+-
+Consumible: 3, Objeto4, Descripcion4, 5, 16, 176, 10, 6
+-
+Consumible: 4, Objeto5, Descripcion5, 25, 128, 16, 2, 8
+-
+Consumible: 1, Objeto2, Descripcion2, 30, 64, 16, 4, 35
+-
+Consumible: 11, C1, D1, 0, 28, 60, 5, 17
+-
+Consumible: 12, C2, D2, 10, 0, 0, 8, 4
+-
+Consumible: 10, Objeto11, Descripcion11, 39, 80, 176, 3, 7
+-sig-
+ARMAS
+-
+Desarmado: 0, Desarmado, Jugador sin armas, 0, 0, 0, 1, 0, 2
+-
+Escopeta: 14, Escopeta, Descripcion, 2, 0, 0, 10, 4, 5
+-
+Escopeta: 1, Escopeta, Descripcion, 2, 1120, 1120, 3, 4, 5
+-
+Pistola: 2, Pistola2, Descripcion, 1, 960, 1184, 4, 3, 5
+-
+Pistola: 15, Pistola2, Descripcion, 1, 0, 0, 10, 3, 5
+-
+Escopeta: 12, Escopeta, Descripcion, 2, 0, 0, 6, 4, 5
+-
+Escopeta: 10, Escopeta, Descripcion, 2, 0, 0, 2, 4, 5
+-
+Pistola: 13, Pistola2, Descripcion, 1, 0, 0, 1, 3, 5
+-
+Pistola: 11, Pistola2, Descripcion, 1, 0, 0, 5, 3, 5
+-sig-
+MUNICIONES
+-
+Municion: 10, Municion, Pistola, 4, 23, 60, 81, Pistola
+-
+Municion: 15, Municion, Escopeta, 0, 25, 59, 72, Escopeta
+-sig-
+ATAJOS
+-
+Integer: 1 => Desarmado: 0, Desarmado, Jugador sin armas, 0, 0, 0, 1, 0, 2
+-
+Integer: 2 => Escopeta: 14, Escopeta, Descripcion, 2, 0, 0, 10, 4, 5
+-
+Integer: 3 => Pistola: 2, Pistola2, Descripcion, 1, 960, 1184, 4, 3, 5
+-
+Integer: 4 => Municion: 10, Municion, Pistola, 4, 23, 60, 60, Pistola
+-
+Integer: 5 => Municion: 15, Municion, Escopeta, 0, 25, 59, 72, Escopeta
+-
+Integer: 6 => Consumible: 1, Objeto2, Descripcion2, 30, 64, 16, 4, 35
+-
+Integer: 9 => Consumible: 8, Objeto9, Descripcion9, 8, 96, 0, 4, 23
+-sig-
+ARMA SELECCIONADA
+-
+Integer: 2

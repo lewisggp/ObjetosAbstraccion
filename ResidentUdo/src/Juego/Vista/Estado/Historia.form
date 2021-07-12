@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-48,0,0,5,0"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButtonEmpezar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/estilos/Btn-Start.png"/>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="contentAreaFilled" type="boolean" value="false"/>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
+        <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/estilos/Btn-Start-Press.png"/>
+        </Property>
+        <Property name="requestFocusEnabled" type="boolean" value="false"/>
+        <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/estilos/Btn-Start-Rollover.png"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="860" y="600" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonSalir">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/estilos/Btn-Cancel.png"/>
+        </Property>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="contentAreaFilled" type="boolean" value="false"/>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
+        <Property name="pressedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/estilos/Btn-Cancel-Press.png"/>
+        </Property>
+        <Property name="requestFocusEnabled" type="boolean" value="false"/>
+        <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/estilos/Btn-Cancel-Rollover.png"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="1180" y="10" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelTitulo">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/estilos/Btn-Historia.png"/>
+        </Property>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="30" y="20" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPaneHistoria">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+        <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="690" y="70" width="550" height="530"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextAreaHistoria">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="Ventana.font" type="code"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Desde la pandemia del 2020 han cambiado muchas cosas, con la restauraci&#xf3;n de Venezuela, este pa&#xed;s ha podido desarrollarse de tal manera que ha vuelto a ser una potencia como lo fue en alg&#xfa;n momento. Es 2030, una &#xe9;poca que irradia paz. Sin embargo, el mundo no estaba preparado para lo que se avecinaba. La humanidad pronto registrar&#xe1; un suceso que los marcar&#xe1; por siempre, a&#xfa;n m&#xe1;s que hace 10 a&#xf1;os&#x2026;&#xa;&#xa;El famoso vir&#xf3;logo ruso Fiodor Kozlov, se hizo tendencia al hacer saber al mundo que estar&#xed;a dando conferencias de virolog&#xed;a en 5 pa&#xed;ses del globo terr&#xe1;queo, a estudiantes de medicina cuyas universidades fueran la numero 1. Gracias a un sorteo se dio a conocer los 5 pa&#xed;ses afortunados: Suiza, Singapur, Venezuela, Panam&#xe1; y Noruega.&#xa;&#xa;Famoso por ser el vir&#xf3;logo que dio a conocer a la ciencia, la existencia de un nuevo virus en una etapa temprana, permitiendo as&#xed; una r&#xe1;pida contingencia de dicho virus. Ya hab&#xed;a dado sus conferencias en Singapur y Suiza, pero sent&#xed;a sed de m&#xe1;s, de poder compartir de manera m&#xe1;s expl&#xed;cita su pasi&#xf3;n y no solo dando ejemplos, que a sus ojos parec&#xed;an vagos y no hac&#xed;an justicia a lo que para &#xe9;l era la virolog&#xed;a de verdad, por lo que decidi&#xf3; para su pr&#xf3;xima conferencia (en Venezuela-UDO n&#xfa;cleo Anzo&#xe1;tegui), llevar una caja de fibra de vidrio con ratones, que hab&#xed;an sido expuestos a un virus aer&#xf3;bico, eso sin contar que su caja ten&#xed;a un peque&#xf1;o, pero muy importante defecto, los accesos que ten&#xed;a para poder manipular lo que se pusiera en su interior, hab&#xed;an sido saboteados, por su mano derecha Frederik Tulsem, solo para poder destronar a Fiodor, pues se hab&#xed;a acreditado falsamente ese descubrimiento, que en realidad hab&#xed;a hecho Frederik, solo que Frederik no contaba con que esto no solo da&#xf1;ar&#xed;a la reputaci&#xf3;n de Fiodor, sino que desatar&#xed;a un completo caos, el virus se propago por el aire, llegando a entrar en contacto con bacterias come carne, tambi&#xe9;n llamada Fascitis Necrotizante, llevadas espec&#xed;ficamente para la pr&#xe1;ctica de un laboratorio de medicina.&#xa;&#xa;El virus aer&#xf3;bico junto a esta bacteria, se fusionaron creando un virus &#x201c;zombie&#x201d;, que afecta el sistema inmunol&#xf3;gico haciendo que el hu&#xe9;sped no lo detecte mientras &#xe9;ste se multiplica corrompiendo las c&#xe9;lulas para crear copias de s&#xed; mismo. Esta enfermedad se propag&#xf3; contaminando r&#xe1;pidamente a los estudiantes que all&#xed; se encontraban, sin saber lo que pasaba, poco a poco fueron cayendo. Para contener a los infectados, los portones fueron cerrados inmediatamente. Nadie entra, nadie sale, haciendo a la UDO una &#x201c;mini-ciudad&#x201d; plagada de zombies que atentan con destruir la humanidad. Sin embargo, en esta historia, no todo est&#xe1; perdido, pues existe una persona cuyo ADN tiene un componente mejor conocido como HDLU, que lo hace inmune al virus, por lo que consiente de la situaci&#xf3;n y con ayuda de diferentes tipos de armas, lograr&#xe1; exterminar a estos zombies en su totalidad, para salvar, no solo a la UDO, sino tambi&#xe9;n a la humanidad de un apocalipsis. Porque la paz y el bienestar de la casa m&#xe1;s alta, deben y ser&#xe1;n recuperados."/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+            <Property name="opaque" type="boolean" value="false"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jScrollPaneHistoria.getViewport().setOpaque(false);"/>
+            <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="jTextAreaHistoria.setLineWrap(true);&#xa;jTextAreaHistoria.setWrapStyleWord(false);&#xa;jTextAreaHistoria.setEditable(false);"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabelLamina">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/estilos/Lamina-Blanca.png"/>
+        </Property>
+        <Property name="horizontalTextPosition" type="int" value="0"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="640" y="0" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelFondo">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/estilos/Fondo-Opaco.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jLabel5"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="-320" y="0" width="1280" height="720"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
